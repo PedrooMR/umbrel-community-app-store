@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: pedroomr-hello-world
-name: Hello World
+id: pedroomr-dockur-windows-xp
+name: Dockur - Windows XP
 tagline: Windows inside a Docker container
 icon: https://svgur.com/i/mvA.svg
-category: Development
+category: Operating Systems
 version: "1.0.0"
-port: 4000
+port: 8006
 description: >-
   The product names, logos, brands, and other trademarks referred to within this project are the property of their respective trademark holders. This project is not affiliated, sponsored, or endorsed by Microsoft Corporation.
 
