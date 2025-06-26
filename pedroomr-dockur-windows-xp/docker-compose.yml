@@ -12,10 +12,9 @@ services:
     image: dockurr/windows
     restart: on-failure
     environment:
-      VERSION: "11"
+      VERSION: "xp"
       PUID: 1000
       PGID: 1000
-      TZ: Europe/Lisbon
     devices:
       - /dev/kvm
       - /dev/net/tun
