@@ -2,7 +2,7 @@ manifestVersion: 1
 id: pedroomr-dockur-windows-xp
 name: Dockur - Windows XP
 tagline: Windows inside a Docker container
-icon: https://github.com/PedrooMR/umbrel-community-app-store/blob/master/pedroomr-dockur-windows-xp/icon.png
+icon: https://imgur.com/a/mzJZrHa.png
 category: Operating Systems
 version: "1.0.0"
 port: 8006
