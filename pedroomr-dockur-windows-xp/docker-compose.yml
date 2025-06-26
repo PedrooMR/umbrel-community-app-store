@@ -10,21 +10,19 @@ services:
 
   windows:
     image: dockurr/windows
-    container_name: windows
+    restart: on-failure
     environment:
-      VERSION: "xp"
+      VERSION: "11"
+      PUID: 1000
+      PGID: 1000
+      TZ: Europe/Lisbon
     devices:
       - /dev/kvm
       - /dev/net/tun
     cap_add:
       - NET_ADMIN
-    ports:
-      - 8006:8006
-      - 3389:3389/tcp
-      - 3389:3389/udp
     volumes:
-      - ./windows:/storage
-    restart: always
+      - ${APP_DATA_DIR}/data:/storage:rw
     stop_grace_period: 2m
     user: "1000:1000"
     init: true
