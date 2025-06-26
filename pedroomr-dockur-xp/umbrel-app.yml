@@ -1,23 +1,20 @@
 manifestVersion: 1
-id: sparkles-hello-world
+id: pedroomr-hello-world
 name: Hello World
-tagline: Replace this tagline with your app's tagline
+tagline: Windows inside a Docker container
 icon: https://svgur.com/i/mvA.svg
 category: Development
 version: "1.0.0"
 port: 4000
 description: >-
-  Add your app's description here.
+  The product names, logos, brands, and other trademarks referred to within this project are the property of their respective trademark holders. This project is not affiliated, sponsored, or endorsed by Microsoft Corporation.
 
-
-  You can also add newlines!
-
-developer: Umbrel
-website: https://umbrel.com
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-hello-world-app
-repo: https://github.com/getumbrel/umbrel-hello-world-app
-support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+developer: Dockur
+website: https://github.com/dockur/windows
+submitter: PedrooMR
+submission: https://github.com/PedrooMR/umbrel-community-app-store
+repo: https://github.com/dockur/windows/
+support: https://github.com/dockur/windows/issues
 gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
@@ -26,5 +23,5 @@ releaseNotes: >-
   Add what's new in the latest version of your app here.
 dependencies: []
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "Docker"
+defaultPassword: "admin"
