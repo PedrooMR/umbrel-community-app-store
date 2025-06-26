@@ -4,14 +4,14 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: pedroomr_dockur_xp_1
+      APP_HOST: pedroomr-dockur-windows-xp
       APP_PORT: 8006
 
   windows:
     image: dockurr/windows
     container_name: windows
     environment:
-      VERSION: "11"
+      VERSION: "xp"
     devices:
       - /dev/kvm
       - /dev/net/tun
