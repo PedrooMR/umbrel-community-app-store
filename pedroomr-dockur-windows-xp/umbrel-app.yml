@@ -7,7 +7,10 @@ category: Operating Systems
 version: "1.0.0"
 port: 8006
 description: >-
-  The product names, logos, brands, and other trademarks referred to within this project are the property of their respective trademark holders. This project is not affiliated, sponsored, or endorsed by Microsoft Corporation.
+This application runs a virtual machine with Windows XP using the dockurr/windows container.
+Useful for nostalgia, testing or compatibility with old software.
+
+The product names, logos, brands, and other trademarks referred to within this project are the property of their respective trademark holders. This project is not affiliated, sponsored, or endorsed by Microsoft Corporation.
 
 developer: Dockur
 website: https://github.com/dockur/windows
