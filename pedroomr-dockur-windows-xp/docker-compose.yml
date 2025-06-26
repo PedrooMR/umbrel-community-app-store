@@ -4,7 +4,7 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: pedroomr-dockur-windows-xp_1
+      APP_HOST: pedroomr-dockur-windows-xp_windows_1
       APP_PORT: 8006
       PROXY_AUTH_ADD: "false"
 
