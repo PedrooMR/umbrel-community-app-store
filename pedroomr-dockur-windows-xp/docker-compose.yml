@@ -12,17 +12,19 @@ services:
     image: dockurr/windows
     restart: on-failure
     environment:
-      VERSION: "11"
+      VERSION: "xp"
+      GPU: "Y"
       PUID: 1000
       PGID: 1000
     devices:
       - /dev/kvm
       - /dev/net/tun
+      - /dev/dri
     cap_add:
       - NET_ADMIN
     volumes:
       - ${APP_DATA_DIR}/data:/storage:rw
     ports:
-      - 3389:3389
+      - "3389:3389"
     stop_grace_period: 2m
     init: true
