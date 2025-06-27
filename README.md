@@ -10,7 +10,6 @@ This repository contains my custom Umbrel App Store. This store is not maintaine
 |-----|------------------------------------------------------|--------------------------------------------------------------------------|--------|
 | 1   | [Dockur - Windows XP](https://github.com/dockur/windows/) | Run Windows XP inside a Docker container         | 8006   |
 
-
 ##
 
 ### ⚠️ How to add the App Store:
