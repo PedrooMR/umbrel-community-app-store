@@ -13,12 +13,17 @@ description: >-
 
 
   ⚠️ Minimum Requirements
+
   CPU: x86_64 processor (Intel or AMD)
+
   RAM: At least 2 GB
+
   Disk: Starts small but dynamically expands up to 64 GB
+
 
   The main interface is available on port 8006 (through the browser),
   and also supports RDP connections on port 3389.
+
 
   ⚠️ Your device must support virtualization and enabled in the BIOS/UEFI!
   
