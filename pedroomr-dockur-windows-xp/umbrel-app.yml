@@ -23,9 +23,8 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
-  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/ofEtfzd.jpeg
+  - https://i.imgur.com/cC3tj2y.jpeg
 
 releaseNotes: >-
   Initial release of the Windows XP virtual machine app powered by dockurr/windows.
