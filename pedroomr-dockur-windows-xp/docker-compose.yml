@@ -13,6 +13,9 @@ services:
     restart: on-failure
     environment:
       VERSION: "xp"
+      RAM_SIZE: "2G"
+      CPU_CORES: "2"
+      DISK_SIZE: "64G"
       GPU: "Y"
       PUID: 1000
       PGID: 1000
