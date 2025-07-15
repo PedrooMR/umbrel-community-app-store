@@ -27,7 +27,7 @@ description: >-
 
  ✅ File sharing with your Umbrel
  
-  Open **File Explorer** inside Windows and go to \\host.lan\Data
+  Open File Explorer inside Windows and go to \\host.lan\Data
   
   This maps to your Umbrel's downloads folder. Use this to exchange files between your Umbrel and the virtual machine.
   
