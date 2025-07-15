@@ -30,4 +30,4 @@ services:
     ports:
       - "3389:3389"
     stop_grace_period: 2m
-    init: true
+    init: true”
