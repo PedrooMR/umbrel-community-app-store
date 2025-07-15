@@ -27,6 +27,7 @@ services:
       - NET_ADMIN
     volumes:
       - ${APP_DATA_DIR}/data:/storage:rw
+      - ${UMBREL_ROOT}/data/storage/downloads:/data:rw
     ports:
       - "3389:3389"
     stop_grace_period: 2m
