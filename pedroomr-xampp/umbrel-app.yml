@@ -10,11 +10,11 @@ port: 41062
 description: >-
   XAMPP is an easy-to-install Apache distribution containing MySQL, PHP, and Perl.
 
-  📦 Includes Apache, PHP, and MySQL in one container.
-
-  🌐 Ideal for testing and developing PHP-based web applications.
-
-  📁 Websites stored in /umbrel/data/storage/htdocs.
+  - 📦 **Includes Apache, PHP, and MySQL in one container**
+  
+  - 🌐 **Ideal for testing and developing PHP-based web applications**
+  
+  - 📁 **Websites stored in '/umbrel/data/storage/htdocs' **
 
 developer: tomsik68
 website: https://hub.docker.com/r/tomsik68/xampp/
