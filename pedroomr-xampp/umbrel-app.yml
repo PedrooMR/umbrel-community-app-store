@@ -30,3 +30,6 @@ releaseNotes: >-
   Initial release of the XAMPP app for Umbrel.
 
 dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
