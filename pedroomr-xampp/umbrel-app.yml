@@ -8,13 +8,13 @@ version: "1.0.0"
 port: 41062
 
 description: >-
-  XAMPP is an easy-to-install Apache distribution containing MySQL, PHP, and Perl.
+ Run a full Apache, PHP, and MySQL development stack directly on your Umbrel.
 
-  - 📦 **Includes Apache, PHP, and MySQL in one container**
+  - 📦 Includes Apache, PHP, and MySQL in one container
   
-  - 🌐 **Ideal for testing and developing PHP-based web applications**
+  - 🌐 Ideal for testing and developing PHP-based web applications
   
-  - 📁 **Websites stored in '/umbrel/data/storage/htdocs' **
+  - 📁 Websites stored in '/umbrel/data/storage/htdocs'
 
 developer: tomsik68
 website: https://hub.docker.com/r/tomsik68/xampp/
@@ -24,7 +24,8 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://www.wpbeginner.com/wp-content/uploads/2024/01/xampp-website.png
+  - https://i.imgur.com/DrqnJ5J.png
+  - https://i.imgur.com/CG6JHzQ.png
 
 releaseNotes: >-
   Initial release of the XAMPP app for Umbrel.
