@@ -4,13 +4,12 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: pedroomr-xampp_1
+      APP_HOST: xampp
       APP_PORT: 41062
       PROXY_AUTH_ADD: "false"
 
   xampp:
     image: tomsik68/xampp
-    container_name: xampp
     restart: on-failure
     volumes:
       - ${UMBREL_ROOT}/data/storage/htdocs:/opt/lampp/htdocs:rw
