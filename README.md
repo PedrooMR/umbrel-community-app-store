@@ -9,6 +9,7 @@ This repository contains my custom Umbrel App Store. This store is not maintaine
 | App-Name                                             | Description                                                              | Port   |
 |------------------------------------------------------|--------------------------------------------------------------------------|--------|
 | [Dockur - Windows XP](https://github.com/dockur/windows/) | Run Windows XP inside a Docker container         | 8006   |
+| [XAMPP](https://hub.docker.com/r/tomsik68/xampp/) | Run a full Apache + MySQL + PHP stack directly on your Umbrel with XAMPP         | 41062  |
 
 ##
 
