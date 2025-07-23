@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: pedroomr-xampp_1
-      APP_PORT: 41062
+      APP_PORT: 80 # Web client
       PROXY_AUTH_ADD: "false"
 
   xampp:
@@ -14,6 +14,6 @@ services:
     volumes:
       - ${UMBREL_ROOT}/data/storage/htdocs:/opt/lampp/htdocs:rw
     ports:
-      - "41062:80"
+      - "41061:22" # SSH port
     environment: {}
     init: true
