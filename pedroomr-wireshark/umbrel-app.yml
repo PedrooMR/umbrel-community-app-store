@@ -9,7 +9,10 @@ port: 3060
 
 description: >-
   Wireshark is the world’s foremost network protocol analyzer.
-  Use this app to capture, inspect, and debug your Umbrel network traffic directly in the browser.
+
+  🧪 Capture, inspect and debug network traffic visually.
+
+  🔐 All your data stays local on your Umbrel node.
 
   ⚠️ This app uses host networking and elevated privileges (NET_ADMIN) for accurate packet capture.
 
