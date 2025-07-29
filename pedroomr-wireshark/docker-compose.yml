@@ -15,7 +15,7 @@ services:
     cap_add:
       - NET_ADMIN
     security_opt:
-      - seccomp:unconfined #optional
+      - seccomp:unconfined
     environment:
       - PUID=1000
       - PGID=1000
