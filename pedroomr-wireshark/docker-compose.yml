@@ -3,15 +3,12 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: pedroomr-wireshark_1
-      APP_PORT: 3000
+      APP_HOST: pedroomr-wireshark_app_1
+      APP_PORT: 3001
       PROXY_AUTH_ADD: "false"
-    networks:
-      - app_net
 
-  wireshark:
+  app:
     image: lscr.io/linuxserver/wireshark:latest
-    container_name: wireshark
     cap_add:
       - NET_ADMIN
     security_opt:
@@ -23,11 +20,4 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/config
       - ${UMBREL_ROOT}/data/storage/wireshark:/umbrel
-    ports:
-      - 3000:3000
     restart: unless-stopped
-    networks:
-      - app_net
-
-networks:
-  app_net:
