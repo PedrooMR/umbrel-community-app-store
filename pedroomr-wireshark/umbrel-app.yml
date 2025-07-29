@@ -5,7 +5,7 @@ tagline: Capture and analyze network traffic directly from your Umbrel
 icon: https://i.imgur.com/g2yigi6.png
 category: Network Tools
 version: "1.0.0"
-port: 3001
+port: 3000
 
 description: >-
   Wireshark is the world’s foremost network protocol analyzer.
