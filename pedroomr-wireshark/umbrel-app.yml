@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: pedroomr-wireshark
+name: Wireshark
+tagline: Capture and analyze network traffic directly from your Umbrel
+icon: https://i.imgur.com/g2yigi6.png
+category: Network Tools
+version: "1.0.0"
+port: 3001
+
+description: >-
+Wireshark is the world’s foremost network protocol analyzer.
+Use this app to capture, inspect, and debug your Umbrel network traffic directly in the browser.
+
+developer: Wireshark Foundation (container by linuxserver.io)
+website: https://hub.docker.com/r/linuxserver/wireshark
+submitter: PedrooMR
+submission: https://github.com/PedrooMR/umbrel-community-app-store
+repo: https://github.com/PedrooMR/umbrel-community-app-store
+support: https://github.com/PedrooMR/umbrel-community-app-store/issues
+
+gallery:
+  - https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Wireshark_3.6_screenshot.png/1200px-Wireshark_3.6_screenshot.png
+
+releaseNotes: >-
+  Initial release of Wireshark for Umbrel.
+
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
