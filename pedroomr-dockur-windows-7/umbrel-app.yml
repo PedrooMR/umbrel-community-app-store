@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: pedroomr-dockur-windows-7
-name: Dockur - Windows 7
+name: Windows 7 - Dockur
 tagline: Run Windows 7 inside a Docker container
 icon: https://i.imgur.com/56bxWvr.png
 category: Operating Systems
