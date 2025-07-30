@@ -1,6 +1,6 @@
 manifestVersion: 1
 id: pedroomr-dockur-windows-xp
-name: Dockur - Windows XP
+name: Windows XP - Dockur
 tagline: Run Windows XP inside a Docker container
 icon: https://i.imgur.com/jBXRKpu.png
 category: Operating Systems
