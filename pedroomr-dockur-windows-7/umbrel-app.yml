@@ -47,8 +47,9 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://i.imgur.com/RxYnNCu.png
-  - https://i.imgur.com/EHzW7a6.png
+  - https://i.imgur.com/cZWJM4s.png
+  - https://i.imgur.com/UE4CGBu.png
+  - https://i.imgur.com/zxSPszi.png
 
 releaseNotes: >-
   Initial release of the Windows 7 virtual machine app powered by dockurr/windows.
