@@ -20,7 +20,7 @@ description: >-
   Disk: Starts small but dynamically expands up to 64 GB
 
 
-  The main interface is available on port 8007 (through the browser),
+  The main interface is available on port 8010 (through the browser),
   and also supports RDP connections on port 3391.
 
 
