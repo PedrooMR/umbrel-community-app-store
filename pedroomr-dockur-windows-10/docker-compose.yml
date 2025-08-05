@@ -1,0 +1,34 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: pedroomr-dockur-windows-10_app_1
+      APP_PORT: 8006
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: dockurr/windows
+    restart: on-failure
+    environment:
+      VERSION: "10"
+      RAM_SIZE: "4G"
+      CPU_CORES: "2"
+      DISK_SIZE: "64G"
+      GPU: "Y"
+      PUID: 1000
+      PGID: 1000
+    devices:
+      - /dev/kvm
+      - /dev/net/tun
+      - /dev/dri
+    cap_add:
+      - NET_ADMIN
+    volumes:
+      - ${APP_DATA_DIR}/data:/storage:rw
+      - ${UMBREL_ROOT}/data/storage/downloads:/data:rw
+    ports:
+      - "3391:3389"
+    stop_grace_period: 2m
+    init: true
