@@ -21,7 +21,7 @@ description: >-
 
 
   The main interface is available on port 8007 (through the browser),
-  and also supports RDP connections on port 3390.
+  and also supports RDP connections on port 3391.
 
 
   ✅ File sharing with your Umbrel
