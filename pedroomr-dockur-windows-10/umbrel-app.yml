@@ -10,7 +10,6 @@ port: 8010
 description: >-
   It’s Windows 10... but cooler — running in Docker, on your Umbrel, like a boss.
 
-
   ⚠️ Minimum Requirements
 
   CPU: x86_64 processor (Intel or AMD)
@@ -20,8 +19,8 @@ description: >-
   Disk: Starts small but dynamically expands up to 64 GB
 
 
-  The main interface is available on port 8010 (through the browser),
-  and also supports RDP connections on port 3391.
+  The main interface is available on port 8007 (through the browser),
+  and also supports RDP connections on port 3390.
 
 
   ✅ File sharing with your Umbrel
@@ -35,8 +34,9 @@ description: >-
   ⚠️ Your device must support virtualization and enabled in the BIOS/UEFI!
 
   
-  © Microsoft and Windows are registered trademarks of Microsoft Corporation.  
-This project is not affiliated with, sponsored, or endorsed by Microsoft.
+  The product names, logos, brands, and other trademarks referred to within this project
+  are the property of their respective trademark holders. This project is not affiliated,
+  sponsored, or endorsed by Microsoft Corporation.
 developer: Dockur
 website: https://github.com/dockur/windows
 submitter: PedrooMR
@@ -45,9 +45,7 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://i.imgur.com/cZWJM4s.png
-  - https://i.imgur.com/UE4CGBu.png
-  - https://i.imgur.com/zxSPszi.png
+  - https://archive.org/download/win10-backgrounds/Win10%20DBs/img0_3840x2160.jpg
 
 releaseNotes: >-
   Initial release of the Windows 10 virtual machine app powered by dockurr/windows.
