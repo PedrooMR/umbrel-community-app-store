@@ -46,7 +46,9 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://archive.org/download/win10-backgrounds/Win10%20DBs/img0_3840x2160.jpg
+  - https://i.imgur.com/DauzSjU.png
+  - https://i.imgur.com/FLdvRUp.png
+  - https://i.imgur.com/kqchnth.png
 
 releaseNotes: >-
   Initial release of the Windows 10 virtual machine app powered by dockurr/windows.
