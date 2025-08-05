@@ -9,6 +9,7 @@ port: 8010
 
 description: >-
   It’s Windows 10... but cooler — running in Docker, on your Umbrel, like a boss.
+  
 
   ⚠️ Minimum Requirements
 
