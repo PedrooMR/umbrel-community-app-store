@@ -10,9 +10,4 @@ services:
   app:
     image: openspeedtest/latest
     restart: unless-stopped
-    networks:
-      - app_net
     init: true
-
-networks:
-  app_net:
