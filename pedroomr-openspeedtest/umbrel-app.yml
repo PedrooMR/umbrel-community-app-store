@@ -25,7 +25,8 @@ repo: https://github.com/PedrooMR/umbrel-community-app-store
 support: https://github.com/PedrooMR/umbrel-community-app-store/issues
 
 gallery:
-  - https://i.imgur.com/5rgbW8s.png
+  - https://i.imgur.com/pziE0OE.png
+  - https://i.imgur.com/FYm60qD.png
 
 releaseNotes: >-
   Initial release of the OpenSpeedTest app for Umbrel.
