@@ -3,14 +3,17 @@ id: pedroomr-openspeedtest
 name: OpenSpeedTest
 tagline: Run a local network speed test server on your Umbrel
 icon: https://i.imgur.com/5rgbW8s.png
-category: Utilities
+category: Network Tools
 version: "1.0.0"
 port: 8050
 
 description: >-
-  🧪 Measure download, upload, and latency **between your devices and your Umbrel**.
+
+  🧪 Measure download, upload, and latency between your devices and your Umbrel.
+  
 
   🌍 Works in any modern browser — ideal for testing your local Wi-Fi or LAN speed.
+  
 
   ✅ Useful for diagnosing network bottlenecks or comparing devices on your home network.
 
@@ -25,9 +28,9 @@ gallery:
   - https://i.imgur.com/5rgbW8s.png
 
 releaseNotes: >-
-  Initial release of OpenSpeedTest for Umbrel.
+  Initial release of the OpenSpeedTest app for Umbrel.
 
 dependencies: []
-path: ""
+
 defaultUsername: ""
 defaultPassword: ""
