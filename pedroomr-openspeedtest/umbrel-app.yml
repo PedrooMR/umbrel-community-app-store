@@ -8,12 +8,12 @@ version: "1.0.0"
 port: 8050
 
 description: >-
+  Host your own speed test with OpenSpeedTest.
 
-  🧪 Measure download, upload, and latency between your devices and your Umbrel.
   
+  🧪 Measure download, upload, and latency between your devices and your Umbrel.
 
   🌍 Works in any modern browser — ideal for testing your local Wi-Fi or LAN speed.
-  
 
   ✅ Useful for diagnosing network bottlenecks or comparing devices on your home network.
 
