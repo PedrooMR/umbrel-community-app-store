@@ -12,8 +12,6 @@ services:
     restart: unless-stopped
     networks:
       - app_net
-    ports:
-      - "8050:3000"
     init: true
 
 networks:
