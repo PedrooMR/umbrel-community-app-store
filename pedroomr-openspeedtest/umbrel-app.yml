@@ -2,7 +2,7 @@ manifestVersion: 1
 id: pedroomr-openspeedtest
 name: OpenSpeedTest
 tagline: Run a local network speed test server on your Umbrel
-icon: https://i.imgur.com/5rgbW8s.png
+icon: https://i.imgur.com/bcTaNPK.png
 category: Network Tools
 version: "1.0.0"
 port: 8050
