@@ -11,6 +11,8 @@ services:
   app:
     image: openspeedtest/latest
     restart: unless-stopped
+    ports:
+      - "8050:3000"
     networks:
       - app_net
 
