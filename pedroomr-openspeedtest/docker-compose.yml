@@ -12,8 +12,8 @@ services:
     restart: unless-stopped
     networks:
       - app_net
-    expose:
-      - "3000"
+    ports:
+      - "8050:3000"
     init: true
 
 networks:
