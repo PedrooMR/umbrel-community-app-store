@@ -12,6 +12,7 @@ This repository contains my custom Umbrel App Store. This store is not maintaine
 | [Dockur - Windows 7](https://github.com/dockur/windows/) | Run Windows 7 inside a Docker container         | 8007 & 3390 (RDP)   |
 | [Dockur - Windows 10](https://github.com/dockur/windows/) | Run Windows 10 inside a Docker container         | 8010 & 3391 (RDP)   |
 | [XAMPP](https://hub.docker.com/r/tomsik68/xampp/) | Run a full Apache + MySQL + PHP stack directly on your Umbrel with XAMPP         | 41062  |
+| [OpenSpeedTest](https://openspeedtest.com/) | Run a local network speed test server on your Umbrel         | 8050  |
 
 ##
 
