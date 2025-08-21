@@ -1,0 +1,18 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: pedroomr-openspeedtest_app_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  app:
+    image: openspeedtest/latest
+    restart: unless-stopped
+    networks:
+      - app_net
+
+networks:
+  app_net:
